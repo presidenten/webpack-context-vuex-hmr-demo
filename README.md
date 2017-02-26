@@ -2,7 +2,9 @@
 
 ## Introduction
 This project is based upon the [Vue-cli webpack template](https://github.com/vuejs-templates/webpack), that has been modified to show how to get automatic `HMR` running with `Vuex` when organizing by using [Vuex modules](https://vuex.vuejs.org/en/modules.html).
-This is done by adding the [webpack-context-hmr](https://github.com/presidenten/webpack-context-vuex-hmr) webpack plugin and [hmr-auto-accept-loader](https://github.com/presidenten/hmr-auto-accept-loader) to HMR autoaccept nested vuex modules.
+This is done by using the [webpack-context-hmr](https://github.com/presidenten/webpack-context-vuex-hmr) webpack plugin.
+
+For the Webpack 1 example, check the [webpack1 branch](https://github.com/presidenten/webpack-context-vuex-hmr-demo/tree/webpack1)
 
 ## Usage
 
@@ -17,9 +19,6 @@ This is done by adding the [webpack-context-hmr](https://github.com/presidenten/
 - Try for example to change the mutation in the `helper-substore.js`
 - Changes to `initialState` requires manual browser refresh
 - Have fun!
-
-## Todo
-- Update plugin, loader and demo to work with Webpack 2.
 
 # License
 MIT

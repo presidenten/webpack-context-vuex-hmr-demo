@@ -1,5 +1,5 @@
 <script>
-  import example from './components/example-component/example-view.vue';
+  import example from './components/example-component/example.vue';
 
   export default {
     name: 'app',
@@ -12,7 +12,6 @@
 <template>
   <div id="app">
     <example></example>
-    <div></div>
   </div>
 </template>
 
