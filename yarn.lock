@@ -4560,9 +4560,9 @@ webpack-bundle-analyzer@^2.2.1:
     mkdirp "^0.5.1"
     opener "^1.4.2"
 
-webpack-context-vuex-hmr@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/webpack-context-vuex-hmr/-/webpack-context-vuex-hmr-2.0.0.tgz#4827a34b1e0e632035b5237e89e68b14f9991c25"
+webpack-context-vuex-hmr@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/webpack-context-vuex-hmr/-/webpack-context-vuex-hmr-2.1.1.tgz#140b243f310607afa61e34f452f9cc5c5dfdc0ee"
 
 webpack-dev-middleware@^1.10.0:
   version "1.10.1"
